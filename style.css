@@ -1,0 +1,140 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+
+}
+.flex-area{
+    display: flex;
+}
+.half-width{
+    max-width: 50%;
+    padding: 10%; 
+}
+.navbar{
+    background: rgb(226, 219, 219);
+    opacity: .7;
+    padding: 10px;
+}
+.logo{
+    float: left;
+    width: 50%;
+    margin: 10px 130px;
+}
+.logo h1{
+    margin-left: 20px;
+    font-size: bold;
+    color: slateblue;
+    
+}
+
+ .navbar .top-menu ul li{
+    margin-right: 90px;
+    list-style: none;
+    padding: 10px;
+    
+}
+.top-menu ul li{
+    margin:10px;
+}
+.top-menu ul li a{
+    list-style: none;
+    margin-right: 15px;
+}
+
+.hight{
+    margin-bottom: 70px;
+    height:100vh ;
+}
+
+.half-width a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 15px 55px;
+    border-radius: 30px;
+    color: white;
+    background-image:linear-gradient(to right, slateblue,#483D8B);
+}
+/* hero area start */
+
+.color-span{
+    color: slateblue;
+}
+h2{
+    color: #575757;
+}
+.half-width p{
+    font-size: 25px;
+    color: #696969;
+}
+
+/* hero area end */
+
+/* about me start */
+.about-me{
+background-image: url(image/Frame\ 56.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+.about-me .blog{
+    padding: 45px;
+}
+ .about-img{
+    margin-top: 190px;
+} 
+/* about me end */
+
+/* recipie area start */
+.my-recipies{
+    text-align: center;  
+}
+
+.recipie-card{
+    margin: 25px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 450px;
+    border-radius:20px ;
+    max-width: 330px;
+    text-align: center;
+    font-size: 15px;
+}
+
+h3{
+    font-weight: bold;
+}
+.recipies-margin {
+   margin-left: 200px;
+}
+.recipie-card img{
+    max-height: 250px;
+    margin: 15px; 
+    max-width: 300px;
+}
+/* recipie area end */
+
+/* new shape area start */
+.new-area{
+    display: flex;
+    margin: 100px 230px 100px 245px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-area-style{
+    text-align: center;
+    margin: 0 auto 0;
+    padding: 20px;  
+}
+/* new shape area end */
+
+/* footer area start */
+footer{
+    text-align: center;
+     padding: 25px;
+    background-color: black;  
+}
+footer p{
+    color: rgb(153, 149, 149);  
+}
+/* footer area end */
